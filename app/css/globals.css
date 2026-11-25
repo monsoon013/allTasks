@@ -1,0 +1,62 @@
+
+:root{
+    color-scheme: light dark;
+
+    --bg-color: oklch(0.9842 0.008 98.88);
+    --primary-color:oklch(0.4749 0.075 106.99);
+    --secondary-color: oklch(0.7969 0.0588 207.11);
+    --accent-color: oklch(0.5008 0.1437 273.5);
+    --primary-text-color: oklch(0.2362 0.031 102.89);
+    --text-muted: #555555;
+    --text-link: oklch(0.5008 0.1437 273.5);
+    --text-link-hover: oklch(0.6107 0.1437 273.5);
+    --text-on-brand: #ffffff;
+    --bg-input: #ffffff;
+    --border-color-input: #999999;
+
+    --heading-fonts: "Manrope", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --heading-font-size: 0.9rem;
+    --size-body: 1rem;
+
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+
+    --size-body-lg: 1.05rem;
+    --size-ui: 0.9rem;
+    --size-small: 0.85rem;
+    --size-xs: 0.75rem;
+    --size-site-title: 1.6rem;
+    --size-site-title-md: 2rem;
+    --size-site-title-lg: 2.4rem;
+    --size-insignia: 3rem;
+    --size-insignia-lg: 4rem;
+    --letter-spacing-nav: 0.1rem;
+
+    --border-width: 1px;
+    --border-width-thick: 2px;
+    --radius: 5px;
+    --radius-sm: 3px;
+    --size-touch-target: 2.75rem;
+    --size-visually-hidden: 1px;
+
+}
+
+@media (prefers-color-scheme: dark){
+    :root {
+        --bg-color: oklch(0.1433 0.0154 101.71);
+        --primary-color: oklch(0.8584 0.0709 106.02);
+        --secondary-color: oklch(0.4795 0.0599 207.78);
+        --accent-color: oklch(0.5008 0.1437 273.5);
+        --primary-text-color: oklch(0.9519 0.0239 101.67);
+        --text-muted: #a3a9b8;
+        --text-on-brand: #ffffff;
+        --text-link: oklch(0.5008 0.1437 273.5);
+        --text-link-hover: oklch(0.7828 0.1437 273.5);
+        --bg-input: #2c2d31;
+        --border-color-input: #6b7385;
+    }
+}
