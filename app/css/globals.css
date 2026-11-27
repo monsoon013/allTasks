@@ -10,9 +10,11 @@
     --text-muted: #555555;
     --text-link: oklch(0.5008 0.1437 273.5);
     --text-link-hover: oklch(0.6107 0.1437 273.5);
-    --text-on-brand: #ffffff;
+    --text-on-brand: #f8f8f8;
     --bg-input: #ffffff;
     --border-color-input: #999999;
+    --bg-card: #f8f8f8;
+    --bg-card-muted: #f8f8f8;
 
     --heading-fonts: "Manrope", sans-serif;
     --font-body: "Inter", sans-serif;
@@ -43,6 +45,12 @@
     --size-touch-target: 2.75rem;
     --size-visually-hidden: 1px;
 
+    --bg-idea-tag: #FC5023;
+    --bg-todo-tag: #FCDD23;
+    --bg-doing-tag: #5127AC;
+    --bg-done-tag: #19B35C;
+
+
 }
 
 @media (prefers-color-scheme: dark){
@@ -58,5 +66,11 @@
         --text-link-hover: oklch(0.7828 0.1437 273.5);
         --bg-input: #2c2d31;
         --border-color-input: #6b7385;
+        --bg-card: #3a3b3f;
+        --bg-card-muted: #818591;
+        --bg-idea-tag: #C6583B;
+        --bg-todo-tag: #C6B33B;
+        --bg-doing-tag: #4D3288;
+        --bg-done-tag: #2A8E55;
     }
 }
