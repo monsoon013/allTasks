@@ -37,6 +37,13 @@ body{
 
 header{
     background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    #menu{
+        display: flex;
+        flex-direction: row;
+    }
 
 }
 
